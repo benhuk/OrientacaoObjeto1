@@ -26,7 +26,9 @@ public class PessoaTeste {
 		jose.nome = "Jose";
 		jose.idade = 32;
 		jose.peso = 62.4;
-		
+		joao.andar();
+		joao.correr();
+		joao.falar();
 	}
 	
 }
