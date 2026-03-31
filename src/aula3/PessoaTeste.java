@@ -27,8 +27,9 @@ public class PessoaTeste {
 		jose.idade = 32;
 		jose.peso = 62.4;
 		joao.andar();
-		joao.correr();
+		maria.correr();
 		joao.falar();
+		System.out.println(joao);
 	}
 	
 }

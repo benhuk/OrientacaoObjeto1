@@ -23,4 +23,9 @@ public class Pessoa {
 	public void falar() {
 		System.out.println(nome + " está falando");
 	}
+	@Override
+	public String toString() {
+		return "Pessoa [nome=" + nome + ", idade=" + idade + ", peso=" + peso + "]";
+	}
+
 }
